@@ -5,14 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Bootstrap Demo</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Ini</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-primary">
+      <div class="container">
+        <a href="#" class="navbar-brand">RC</a>
+        <form class="d-flex" role="search">
+          <!-- <input type="text" class="form-control me-1" />
+          <button class="btn btn-light">
+            <i class="bi bi-search"></i>
+          </button> -->
+          <div class="input-group">
+            <input type="text" class="form-control" />
+            <button class="btn btn-light">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
 
-      <button class="btn btn-primary">Submit</button>
-    </div>
+    <!-- Main sectio -->
+    <section id="=main">
+      <div class="container">
+        <div class="row flex-nowrap">
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="user-img">
+                  <img
+                    src="https://picsum.photos/202"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="user-info">
+                  <h4>Boston DC</h4>
+                  <h6>Austin, TX</h6>
+                  <span class="badge bg-primary">Food</span>
+                  <span class="badge bg-primary">Fashion</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="user-img">
+                  <img
+                    src="https://picsum.photos/201"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="user-info">
+                  <h4>Edwardsville</h4>
+                  <h6>Austin, TX</h6>
+                  <span class="badge bg-primary">Nature</span>
+                  <span class="badge bg-primary">Health</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="user-img">
+                  <img
+                    src="https://picsum.photos/203"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="user-info">
+                  <h4>Detriot CA</h4>
+                  <h6>Austin, TX</h6>
+                  <span class="badge bg-primary">Dance</span>
+                  <span class="badge bg-primary">Music</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer text-bg-dark fixed-bottom">
+      <div class="container d-flex justify-content-between">
+        <button class="btn btn-dark px-4">
+          <i
+            class="bi bi-wechat"
+            style="font-size: 1rem; color: rgb(230, 234, 240)"
+          ></i>
+        </button>
+
+        <a href="#" class="btn btn-dark px-4">
+          <i class="bi bi-wrench-adjustable-circle"></i>
+        </a>
+
+        <a href="#" class="btn btn-dark px-4">
+          <i class="bi bi-tools"></i>
+        </a>
+
+        <a href="#" class="btn btn-dark px-4">
+          <i class="bi bi-share"></i>
+        </a>
+
+        <a href="#" class="btn btn-dark px-4">
+          <i class="bi bi-person-circle"></i>
+        </a>
+
+        <!-- <a href="#" class="btn btn-dark px-4">
+          <i class="bi bi-minecart"></i>
+        </a> -->
+      </div>
+    </footer>
 
     <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
