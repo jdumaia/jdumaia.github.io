@@ -1,6 +1,3 @@
-// Import all of Bootstrap's CSS
-//@import "bootstrap/scss/bootstrap";
-
 /*
 $primary: #333;
 $text-color: #ffffff;
@@ -10,7 +7,6 @@ body {
   color: $text-color;
 }
 */
-
 .bg-brand {
   background-color: #362e46;
 }
